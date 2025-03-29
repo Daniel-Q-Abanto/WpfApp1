@@ -5,17 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="ventana" Height="250" Width="530">
+        Title="ventana" Height="200" Width="500">
     <Grid>
         <Grid >
             <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="3*"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
                 
             </Grid.ColumnDefinitions>
             <Button Content="Agregar" 
@@ -44,14 +44,14 @@
                 />
             <TextBox
                 Height="30"
-                Width="300"
+                Width="250"
                 Grid.Column="1"
                 Grid.Row="0"
                 
                 />
             <TextBox
                 Height="30"
-                Width="300"
+                Width="250"
                 Grid.Column="1"
                 Grid.Row="1"
     
